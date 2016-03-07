@@ -86,7 +86,7 @@ error_reporting(0);
       <td><?php echo $row[5] ?></td>
       <td><?php echo $row[6] ?></td>
       <td><?php echo $row[7] ?></td>
-      <td><button style="color:red" class="js-delete" data-id="<?php echo $row[0] ?>">Xóa</button></td>
+      <td><button style="color:red" class="js-delete" data-id="<?php echo $row[0] ?>">Delete</button></td>
       </tr>
       <?php
         ++$i;

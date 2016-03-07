@@ -2,6 +2,21 @@
 <!DOCTYPE html>
 <html>
   <?php require_once "head.php"; ?>
+  <head>
+    <style media="screen">
+      a{
+        font-family: 'Ubuntu', sans-serif;
+      }
+      #brand{
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+      }
+      #session{
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+      }
+    </style>
+  </head>
   <body>
 
 
@@ -16,7 +31,7 @@
             <span class="icon-bar"></span>
           </button>
           <ul class="nav navbar-nav navbar-left">
-              <a href="../index.php" class="navbar-brand">Typogit</a>
+              <a id="brand" href="../index.php" class="navbar-brand">Typogit</a>
           </ul>
 
 
@@ -31,12 +46,13 @@
                 <li><a href="list_user.php">User's database</a></li>
                 <li><a href="list_subscriber.php">Subscriber's idea</a></li>
                 <li><a href="add_moderator.php">Add Moderators</a></li>
+                <li><a href="count_files.php">Check uploaded files</a></li>
               </ul>
 
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <?php echo"<a class='navbar-brand' href='logout.php'>Logout <span class='spanclass'>" .$_SESSION['USERNAME']. "</span></a>" ?>
+            <?php echo"<a class='navbar-brand' href='logout.php'>Logout  <span id='session' class='spanclass'>" .$_SESSION['USERNAME']. "</span></a>" ?>
 
           </ul>
         </div><!-- /.navbar-collapse -->

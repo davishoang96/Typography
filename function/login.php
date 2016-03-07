@@ -10,12 +10,11 @@ include 'check_login.php';
 
     <style media="screen">
         body{
-          background: url(../img/register.jpg);
+          background: url(../img/login.jpg);
           background-size: cover;
           background-attachment: fixed;
         }
         .panel-default {
-
         margin: auto;
         margin-top: 200px;
         width: 450px;

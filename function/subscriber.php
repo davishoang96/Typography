@@ -15,7 +15,7 @@
             if (empty($name) || empty($email) || empty($message)) {
             ?>
             <script type="text/javascript">
-              alert("FAILED");
+              alert("Please don't leave any blank!");
             </script>
 
             <?php

@@ -4,7 +4,21 @@ error_reporting(0);
 <!DOCTYPE html>
 <html>
   <?php require_once "head.php"; ?>
-
+  <head>
+    <style media="screen">
+      a{
+        font-family: 'Ubuntu', sans-serif;
+      }
+      #brand{
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+      }
+      #session{
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+      }
+    </style>
+  </head>
   <body>
 
 
@@ -12,7 +26,7 @@ error_reporting(0);
       <div class="container">
 
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">Typogit</a>
+          <a id="brand" class="navbar-brand" href="index.php">Typogit</a>
         </div>
 
 
@@ -47,7 +61,7 @@ error_reporting(0);
             <!-- Change to logout if session exists -->
               <?php
               if (isset($_SESSION['USERNAME'])) {
-                echo "<a class='navbar-brand' href='function/logout.php'>Logout <span class='spanclass'>" .$_SESSION['USERNAME']. "</span></a>";
+                echo "<a class='navbar-brand' href='function/logout.php'>Logout <span id='session' class='spanclass'>" .$_SESSION['USERNAME']. "</span></a>";
               } else {
                 echo "<a class='navbar-brand' href='function/login.php'>Login </a>";
               }

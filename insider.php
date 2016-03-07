@@ -1,33 +1,4 @@
-
-<?php
-session_start();
-error_reporting(0);
-
-if ($_SESSION['USERNAME']) {
-  echo "";
-
-} else {
-  ?>
-        <h1>Permission Denied</h1>
-        <h1>You will be redirected in <span id="counter" style="color: red">5</span> second(s).</h1>
-          <script type="text/javascript">
-          function countdown() {
-              var i = document.getElementById('counter');
-              if (parseInt(i.innerHTML)<=0) {
-                  location.href = 'index.php';
-              }
-              i.innerHTML = parseInt(i.innerHTML)-1;
-          }
-          setInterval(function(){ countdown(); },1000);
-          </script>
-  <?php
-  header('refresh: 5; url=index.php');
-  die();
-}
-
-?>
-
-
+<?php include 'function/check_level_0.php'; ?>
 <!doctype html>
 <html>
 <?php require 'core/head.php';
@@ -41,11 +12,11 @@ include 'core/navbar.php';
   <div class="page-container">
 
     <!-- bloc-0 -->
-    <div class="bloc l-bloc bgc-white" data-stellar-background-ratio="0.5">
+    <div class="bloc l-bloc bgc-white">
       <div class="container bloc-lg">
         <div class="row">
-          <div class="col-sm-12">
-            <div id="carousel-1" class="carousel slide" data-ride="carousel" style="width: 800; height: 400">
+          <div class="col-lg-12">
+            <div id="carousel-1" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel-1" data-slide-to="0">
                 </li>
@@ -116,7 +87,7 @@ include 'core/navbar.php';
               <div class="caption">
                 <h3>Walkon</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
+                  Designed by Hong Kong-based creative Hanson Chan, Walk On is a retro font fusing an Art Deco feel with a contemporary approach.
                 </p>
                 <a class="btn btn-primary" href="file/Walkon.zip" download="Walkon.zip">Download</a>
               </div>
@@ -129,7 +100,7 @@ include 'core/navbar.php';
               <div class="caption">
                 <h3>Stellar</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
+                  Designed to give purpose to your ideas, whether they're "galactic or atomic", Stellar is a slick, condensed sans serif with an elongated x-height.
                 </p>
                 <a class="btn btn-primary" href="file/Stellar.zip" download="Stellar.zip">Download</a></div>
               </div>
@@ -141,8 +112,7 @@ include 'core/navbar.php';
                 <div class="caption">
                   <h3>Shumi</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-                  </p>
+For all your bold, geometric typeface needs, look no further than Moscow-based designer Ivan Shumikhin's free font Shumi.                   </p>
                   <a class="btn btn-primary" href="file/Shumi.zip" download="Shumi.zip">Download</a></div>
                 </div>
               </div>
@@ -152,8 +122,7 @@ include 'core/navbar.php';
                   <div class="caption">
                     <h3>Ailerons</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-                    </p>
+Ailerons was inspired by aircraft models from the 1940s. It was originally designed for an experimental air models project                    </p>
                     <a class="btn btn-primary" href="file/Ailerons.zip" download="Ailerons.zip">Download</a>          </div>
                   </div>
                 </div>
@@ -163,10 +132,10 @@ include 'core/navbar.php';
                   <div class="thumbnail">
                     <img src="img/ADA.jpg" class="img-responsive img-rounded" style="width: 270px ; height: 150px"/></a>
                     <div class="caption">
-                      <h3>ADA</h3>
+                      <h3>Arkhip</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-                      </p>
+Arkhip was created by the team at Moscow-based Klimov Design. A bold all-caps font "with a Russian soul". Arkhip is available in both Latin and Cyrillic.
+                        </p>
                       <a class="btn btn-primary" href="file/ADA.zip" download="ADA.zip">Download</a>          </div>
                     </div>
                   </div>
@@ -176,8 +145,7 @@ include 'core/navbar.php';
                       <div class="caption">
                         <h3>Debby</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-                        </p>
+It’s ideal for anything from wedding invitations, poster and logos to greeting cards and more, thanks to its irregular, bouncing characters.                        </p>
                         <a class="btn btn-primary" href="file/Debby.zip" download="Debby.zip">Download</a>          </div>
                       </div>
                     </div>
@@ -187,8 +155,7 @@ include 'core/navbar.php';
                         <div class="caption">
                           <h3>Beyno</h3>
                           <p>
-                            Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
-                          </p>
+Swiss student Fabian Korn developed experimental font Beyno in his spare time. An uppercase design, it lends itself particularly well to eye-catching headlines,                          </p>
                           <a class="btn btn-primary" href="file/Beyno.zip" download="Beyno.zip">Download</a>                        </div>
                         </div>
                       </div>
@@ -198,7 +165,8 @@ include 'core/navbar.php';
                           <div class="caption">
                             <h3>Ansley</h3>
                             <p>
-                              Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
+                              Detroit-based graphic designer Kady Jesko created Ansley after not being able to find a free retro-style font. Inspired by “past and modern retro typography”.
+
                             </p>
                             <a class="btn btn-primary" href="file/Ansley.zip" download="Ansley.zip">Download</a>          </div>
                           </div>
