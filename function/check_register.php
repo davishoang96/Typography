@@ -51,7 +51,7 @@
               $str = "insert into register values ('','$name','$username','$email','$pass','$add','$dob','')";
               mysql_query($str, $conn);
               ?>
-              "<SCRIPT LANGUAGE='JavaScript'>
+              "<SCRIPT>
               window.alert('Succesfully Registed')
               window.location.href='login.php';
               </SCRIPT>"

@@ -1,3 +1,4 @@
+<?php include 'check_level_1.php'; ?>
 <!doctype html>
 <html>
 <?php include '../core/head.php'; ?>
@@ -22,7 +23,7 @@
 }
 </style>
 <body>
-	<?php require '../core/navbar.php'; ?>
+	<?php require '../core/admin_navbar.php'; ?>
 	<?php require 'check_add_moderator.php'; ?>
 
 <div class="page-container">

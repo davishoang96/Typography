@@ -39,11 +39,11 @@ error_reporting(0);
 
   tr:nth-child(even) {
     background-color: rgb(32, 124, 21);
-    color: rgb(244, 183, 0);
+        color: black;
   }
   tr:nth-child(odd) {
     background-color: rgb(34, 154, 180);
-    color: rgb(244, 183, 0);
+        color: black;
   }
   body{
     background: url(../img/register.jpg);
@@ -86,7 +86,7 @@ error_reporting(0);
       <td><?php echo $row[5] ?></td>
       <td><?php echo $row[6] ?></td>
       <td><?php echo $row[7] ?></td>
-      <td><button style="color:red" class="js-delete" data-id="<?php echo $row[0] ?>">Xóa</button></td>
+      <td><button style="color:red" class="js-delete" data-id="<?php echo $row[0] ?>">Delete</button></td>
       </tr>
       <?php
         ++$i;

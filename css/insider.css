@@ -12,6 +12,24 @@ body{
   moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3 ,p{
+	color: black;
+}
+
+h3{
+	font-family: 'Lobster', cursive;
+}
+
+h2{
+	font-family: 'Pacifico', cursive;
+}
+
+.thumbnail{
+	height: 400px;
+	-webkit-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+}
 a:hover{text-decoration: none; cursor:pointer;}
 
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
@@ -23,6 +41,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: white;
 }
 
+#carousel-1{
+	-webkit-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+}
 
 
 

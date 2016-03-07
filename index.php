@@ -150,12 +150,12 @@
             <div class="col-md-4 animated fadeInUp" data-id='2' id="avatar">
               <img src="img/dat.jpg" class="center-block img-circle img-responsive">
               <h3 class="text-center" style="font-family: 'Lobster', cursive;">Kien Dat</h3>
-              <p class="text-center">PHP Developer</p>
+              <p class="text-center">Javascript Developer</p>
             </div>
             <div class="col-md-4 animated fadeInRight" data-id='3' id="avatar">
               <img src="img/vinh.jpg" class="center-block img-circle img-responsive">
               <h3 class="text-center" style="font-family: 'Lobster', cursive;">The Vinh</h3>
-              <p class="text-center">Database Enginer</p>
+              <p class="text-center">SQL Enginer</p>
             </div>
           </div>
         </div>
