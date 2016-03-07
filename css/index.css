@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(22, 22, 22);
+}
+#sec1 {
+  background: url('../img/intro.jpg');
+  background-size: cover;
+}
+
+#sub {
+  background: url('../img/outro.jpg');
+  background-size: cover;
+}
+
+#intro1 {
+  color: white;
+}
+h1, h2, h3, h4{
+  color: white;
+}
+p{
+    color: white;
+    font-size: 15;
+    font-family: 'Noto Serif', serif;
+}
+#download{
+  background: url('../img/download.jpg');
+  background-size: cover;
+}
+#subscribe{
+  background: url('../img/subscribe.jpg');
+  background-size: cover;
+}
