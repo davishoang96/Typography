@@ -118,7 +118,7 @@ include 'core/navbar.php';
                 <p>
                   Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                 </p>
-                <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a>
+                <a class="btn btn-primary" href="file/Walkon.zip" download="Walkon.zip">Download</a>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ include 'core/navbar.php';
                 <p>
                   Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                 </p>
-                <a class="btn btn-primary" href="/images/stellar.jpg" download="w3logo">Download</a></div>
+                <a class="btn btn-primary" href="file/Stellar.zip" download="Stellar.zip">Download</a></div>
               </div>
             </div>
 
@@ -143,7 +143,7 @@ include 'core/navbar.php';
                   <p>
                     Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                   </p>
-                  <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a></div>
+                  <a class="btn btn-primary" href="file/Shumi.zip" download="Shumi.zip">Download</a></div>
                 </div>
               </div>
               <div class="col-md-3">
@@ -154,7 +154,7 @@ include 'core/navbar.php';
                     <p>
                       Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                     </p>
-                    <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a>          </div>
+                    <a class="btn btn-primary" href="file/Ailerons.zip" download="Ailerons.zip">Download</a>          </div>
                   </div>
                 </div>
               </div>
@@ -167,7 +167,7 @@ include 'core/navbar.php';
                       <p>
                         Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                       </p>
-                      <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a>          </div>
+                      <a class="btn btn-primary" href="file/ADA.zip" download="ADA.zip">Download</a>          </div>
                     </div>
                   </div>
                   <div class="col-md-3">
@@ -189,7 +189,7 @@ include 'core/navbar.php';
                           <p>
                             Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                           </p>
-                          <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a>                        </div>
+                          <a class="btn btn-primary" href="file/Beyno.zip" download="Beyno.zip">Download</a>                        </div>
                         </div>
                       </div>
                       <div class="col-md-3">
@@ -200,7 +200,7 @@ include 'core/navbar.php';
                             <p>
                               Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.
                             </p>
-                            <a class="btn btn-primary" href="/images/myw3schoolsimage.jpg" download="w3logo">Download</a>          </div>
+                            <a class="btn btn-primary" href="file/Ansley.zip" download="Ansley.zip">Download</a>          </div>
                           </div>
                         </div>
                       </div>

@@ -24,6 +24,7 @@ error_reporting(0);
                   if (isset($_SESSION['USERNAME'])) {
                     ?>
                     <a class="navbar-brand" href="insider.php">Insider</a>
+                    <a class="navbar-brand" href="upload.php">Upload fonts</a>
                     <?php
                   } else {
                     echo "";

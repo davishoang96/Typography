@@ -39,11 +39,11 @@ error_reporting(0);
 
   tr:nth-child(even) {
     background-color: rgb(32, 124, 21);
-    color: rgb(244, 183, 0);
+    color: black;
   }
   tr:nth-child(odd) {
     background-color: rgb(34, 154, 180);
-    color: rgb(244, 183, 0);
+    color: black;
   }
   body{
     background: url(../img/register.jpg);

@@ -6,6 +6,7 @@ error_reporting(0);
     echo "welcome, ".$_SESSION['USERNAME']. "!";
 
   } else {
+    //Countdown function for intruders
     ?>
           <h1>Permission Denied</h1>
           <h1>You will be redirected in <span id="counter" style="color: red">5</span> second(s).</h1>

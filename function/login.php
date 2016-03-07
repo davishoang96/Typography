@@ -21,12 +21,15 @@ include 'check_login.php';
         width: 450px;
         padding-left: 20px;
         padding-right: 20px;
+        -webkit-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
+        box-shadow: 7px 10px 38px 0px rgba(0,0,0,0.75);
         }
     </style>
   </head>
 
   <body>
-  
+
 
 
     <div class="animatedParent" data-sequence='500'>
